@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Publication</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/stye.css">
+	<link rel="stylesheet" href="../fonts/all.css">
+	<link rel="stylesheet" href="../css/Mafeuille.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body margeur>
+	<div class="container-fluid margeur">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img height="50" width="50" src="../images/logo blanc.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class=" DivNavLink collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+						<a class="nav-link" href="publier.html">Publier</a>
+						<a class="nav-link" href="propos.html">A propos</a>
+						<a class="nav-link" href="connection.html">Se connecter</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- END nav -->
+
+
+
+		<section class="SectionInscription">
+			<div class=" ContentFormInscription TaillCon">
+				<div class="card boxForm">
+
+					<div class="TitreCardInscp">Publication</div>
+					<form id="PublicationForm" action="../index.html" method="post">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-lg-6 col-sm-12">
+									<label for="">Nom de l'évenement</label>
+									<input type="text" class="inputInscrip form-control"
+										placeholder="Nom de l'évenement" id="nom" name="nom"
+										data-champ="Nom de l'évenement">
+								</div>
+								<div class=" col-lg-6 col-sm-12">
+									<label for="">Lieu</label>
+									<input type="text" class="inputInscrip form-control" placeholder="Lieu" id="email"
+										name="email" data-champ="Lieu">
+								</div>
+
+							</div>
+							<div class="row">
+								<div class=" col-lg-6 col-sm-12">
+									<label for="">Date de debut</label>
+									<input type="date" class="inputInscrip form-control" id="dateDebut" name="debut"
+										data-champ="Date de début">
+								</div>
+								<div class=" col-lg-6 col-sm-12">
+									<label for="">Date de fin</label>
+									<input type="date" class="inputInscrip form-control" id="dateFin" name="fin"
+										data-champ="date de fin">
+								</div>
+
+							</div>
+							<div class="row">
+								<div class="col-lg-6 col-sm-12">
+									<label for="">Passe (CFA)</label>
+									<input type="number" class="inputInscrip form-control"
+										placeholder="Prix d'entrée en CFA" id="passe1" name="passe1" data-champ="passe">
+								</div>
+								<div class="col-lg-6 col-sm-12">
+									<label for="">Vip (CFA)</label>
+									<input type="number" class="inputInscrip form-control"
+										placeholder="Prix d'entrée Vip en CFA" id="Vip" name="passe2"
+										data-champ="Passe Vip">
+								</div>
+
+							</div>
+							<div class="row">
+
+								<div class="col-12">
+									<label for="">Affiche</label>
+									<input type="file" class="inputInscrip form-control" id="affiche" name="affiche"
+										data-champ="affiche" accept=".jpg, .jpeg, .png">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<label for="">Description</label>
+									<textarea class="form-control" name="description" id="description" cols="62"
+										rows="4" data-champ="Description"></textarea>
+
+								</div>
+
+							</div>
+						</div>
+
+						<div class="TitreCardInscp">
+							<input type="submit" class="btn btn-primary mb-2" value="Publier">
+						</div>
+						<div class="Erreur" id="messageErreur"></div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- FOOTER SECTION -->
+
+
+	</div>
+	<!-- END BODY -->
+
+	<script src="../js/publication.js"></script>
+	<script src="../fonts/all.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+	<script src="../js/all.min.js"></script>
+	<script src="../js/main.js"></script>
+
+</body>
+
+</html>

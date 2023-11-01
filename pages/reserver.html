@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Reservation</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/stye.css">
+	<link rel="stylesheet" href="../fonts/all.css">
+	<link rel="stylesheet" href="../css/Mafeuille.css">
+	<!-- <link rel="stylesheet" href="../css/styleFooter.css"> -->
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body margeur>
+	<div class="container-fluid margeur">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img height="50" width="50" src="../images/logo blanc.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class=" DivNavLink collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+						<a class="nav-link" href="publier.html">Publier</a>
+						<a class="nav-link" href="propos.html">A propos</a>
+						<a class="nav-link" href="connection.html">Se connecter</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- END nav -->
+
+
+
+		<section class="SectionInscription">
+			<div class=" ContentFormInscription TaillCon">
+				<div class="card boxForm BoxConnect">
+					<div class="TitreCardInscp">Reservation</div>
+					<form id="ReservationtionForm" action="../index.html" method="post">
+						<div class="card-body">
+							<div class=" row">
+								<div class="col-12">
+									<label for="">Email</label>
+									<input type="email" class=" form-control" placeholder="Entrez votre email"
+										id="email" name="tickets" data-champ="Email">
+								</div>
+
+							</div>
+							<div class=" row">
+								<div class="col-6">
+									<label for="">Nombre de ticket</label>
+									<input type="number" class=" form-control"
+										placeholder="Combien de tickets desirez-vous?" id="nombreTickets" name="tickets"
+										data-champ="Nombre de tickets">
+								</div>
+								<div class="col-6">
+									<label for="">Type de ticket</label>
+									<select class="form-select " aria-label="Default select example"
+										data-champ="Type de tickets" id="typeTicket">
+										<option value="0" selected>Type de tycket</option>
+										<option value="1">Grand public</option>
+										<option value="2">Vip</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+
+							</div>
+
+						</div>
+
+						<div class="TitreCardInscp">
+							<input type="submit" class="btn btn-primary mb-2" value="Reserver">
+						</div>
+						<div class="Erreur" id="messageErreur"></div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!-- END BODY -->
+
+		<script src="../js/reservation.js"></script>
+		<script src="../fonts/all.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/bootstrap.bundle.min.js"></script>
+		<script src="../js/all.min.js"></script>
+		<script src="../js/main.js"></script>
+
+</body>
+
+</html>

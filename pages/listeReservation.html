@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Liste reservation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../fonts/all.css">
+    <link rel="stylesheet" href="../css/Mafeuille.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body margeur>
+    <div class="container-fluid margeur">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img height="50" width="50" src="../images/logo blanc.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars fa-2xl blanc"></i>
+                </button>
+                <div class=" DivNavLink collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+                        <a class="nav-link" href="publier.html">Publier</a>
+                        <a class="nav-link" href="propos.html">A propos</a>
+                        <a class="nav-link" href="connection.html">Se déconnecter</a>
+                        <a class="nav-link" href="tel:44454643"><i class="fa-solid fa-phone fa-shake"></i>
+                            +226 44 45 46 43</a>
+                        <div class="infoConnecte">Nom utilisateur connecté</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END nav -->
+
+
+        <section class="SectionpaysHotes">
+
+            <div class="container-fluid d-flex justify-content-center">
+
+                <div class="card ZoneTableau text-center">
+                    <div class="card-header titrepDetal">
+                        Liste des reservations pour festigrille
+                    </div>
+                    <div class="card-body" style="overflow: scroll;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">N</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Type ticket</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="table-secondary" scope="row">1</th>
+                                    <td class="table-secondary">clent@gmail.com</td>
+                                    <td class="table-secondary">Vip</td>
+                                    <td class="table-secondary">3</td>
+                                    <td class="table-secondary">15/10/2023</td>
+
+                                    <td class="table-secondary" style="display:flex;justify-content:center; gap:5px;">
+                                        <form action="#" method="post" id="Validation">
+                                            <button style="height: 25px; display:flex; align-items:center" type="submit"
+                                                class=" btnTableau btn btn-info">Valider</button>
+                                        </form>
+                                        <form action="#" method="post" id="Rejet">
+                                            <button style="height: 25px; display:flex; align-items:center" type="submit"
+                                                class=" btnTableau btn btn-danger">Rejeter</button>
+                                        </form>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                        Total: 1 reservation <a class="btn btn-secondary" href="javascript:history.back()">Retour</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- FOOTER SECTION -->
+
+        <div class="container-fluid text-center footer">
+            <div class="FlouNoir">
+                <div class="row align-items-center">
+
+                    <div class="LogoPrprtes">
+                        <div class="col-lg-6 col-md-12 col-sm-12 ">
+                            <a href="index.html"><img class="lgo" src="../images/logo blanc.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class=" lgn1Foot">
+
+                        <div class="CoteGauche">
+                            <div class="L1Gche">
+
+                                <div class="DivTelMail">
+                                    <p class="LiensFoot">Telephonne: 44-45-46-43</p>
+                                    <p class="LiensFoot">Email: reservationeven.bf.@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" L1droite">
+                            <a class="LiensFoot" href="../index.html">Accueil</a>
+                            <a class="LiensFoot" href="tel:44454643">Contacter</a>
+                            <a class="LiensFoot" href="propos.html">A propos de nous.</a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="LgnSuiv row align-item-center justify-content-center">
+                        <h1 class="blanc svlg"><strong> Suivez nous. </strong></h1>
+                        <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                            <a href="https://www.facebook.com/"> <i class="fa-brands fa-square-facebook fa-shake icon"
+                                    style="color: #ffffff;"></i></a>
+                            <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter fa-shake icon"
+                                    style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div style="background-color:rgba(0, 0, 0, 0.733); width:100%; color:rgba(255, 255, 255, 0.671)">
+                        &copy; 2023 YODA & ILBOUDO. Tous droits réservés.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- END BODY -->
+
+    <script src="../js/confirmation.js"></script>
+    <script src="../fonts/all.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
